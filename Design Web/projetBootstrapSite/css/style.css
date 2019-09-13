@@ -1,15 +1,46 @@
 html{
     font-size: 10px;
 }
-.red{
-    background-color: red;
+hr{
+    padding-bottom:30px;
+    padding-top:30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #ffb3d7;
 }
-.blue{
-    background-color: blue;
+h1{
+    font-size: 10rem;
 }
-.yellow{
-    background-color: yellow;
+h2{
+    font-size: 3.5rem;
 }
-.green{
-    background-color: green;
+h3{
+    font-size: 3rem;
+}
+p{
+    font-size: 2.5rem;
+}
+.cheesecakebkg{
+       height: 1024px;
+       background: url("../img/cheesecake.webp") no-repeat center;
+   }
+.pinkbkg{
+    background-color: #ffb3d7;
+}
+.pinktxt{
+    color: #ffb3d7;
+}
+.whitehr{
+    border-color: white;
+}
+.whitetxt{
+    color: white;
+}
+.btn-pink{
+    color: white;
+    background-color: #ffb3d7;
+    border-color: white;
+}
+.greytxt{
+    color: darkgray;
 }
