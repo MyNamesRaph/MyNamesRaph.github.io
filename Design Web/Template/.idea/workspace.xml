@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff0123d9-eff2-49f0-bb1f-bad8242a71fe" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/../projetBootstrapSite/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../projetBootstrapSite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projetBootstrapSite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projetBootstrapSite/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projetBootstrapSite/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projetBootstrapSite/css/style1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projetBootstrapSite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../projetBootstrapSite/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,6 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568295070233</updated>
       <workItem from="1568295071319" duration="613000" />
+      <workItem from="1568742573476" duration="291000" />
+      <workItem from="1568742886226" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1568295558508</created>
@@ -81,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

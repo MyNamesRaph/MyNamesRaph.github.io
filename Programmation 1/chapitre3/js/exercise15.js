@@ -1,0 +1,5 @@
+var numA = (prompt("NumA");
+
+
+
+

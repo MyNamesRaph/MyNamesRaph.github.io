@@ -1,0 +1,30 @@
+html{
+    font-size: 10px;
+    height: 100%;
+}
+.profileImg{
+    border-radius: 50%;
+}
+a{
+    font-size: 1.5rem;
+}
+.lgPb{
+    padding-bottom: 100px;
+}
+.lgPb2{
+    padding-bottom: 85px;
+}
+.blue{
+    color: #4ca1b3;
+}
+body{
+    background-color: rgb(41,59,135);
+}
+.bg-less-dark{
+    background-color: #42484e !important;
+}
+.alert-more-danger {
+    color: #721c24;
+    background-color: #f5c6cb;
+    border-color: #ff7e8a;
+}
