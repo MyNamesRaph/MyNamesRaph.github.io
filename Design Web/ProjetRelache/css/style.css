@@ -1,0 +1,142 @@
+html, body{
+    font-size: 10px;
+    margin: 0;
+    height: 100%;
+    font-family: MSDOS;
+}
+@font-face {
+    font-family: MSDOS;
+    src: url("../font/Perfect DOS VGA 437.ttf");
+}
+.separator {
+    border-left: 2px solid;
+    height: 100%;
+}
+.largetext {
+    font-size: 8.5rem;
+}
+.bg-home{
+    background-image: url("../img/homeBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-apple{
+    background-image: url("../img/appleI.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-com{
+    background-image: url("../img/pet2001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-ibm{
+    background-image: url("../img/IBM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 10rem;
+    color: white;
+    text-shadow: 0.5rem 0.5rem black;
+}
+h2 {
+    font-size: 3.5rem;
+}
+p {
+    font-size: 1.3rem;
+}
+li {
+    font-size: 1.3rem;
+}
+.phosphor-text {
+    color: #31e531;
+}
+
+
+
+
+
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    html, body{
+        font-size: 10px;
+        margin: 0;
+        height: 100%;
+        font-family: MSDOS;
+    }
+    h1 {
+        font-size: 4rem;
+        color: white;
+        text-shadow: 0.5rem 0.5rem black;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    li {
+        font-size: 1rem;
+    }
+    .bg-home{
+        background-image: url("../img/homeBgCell.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .bg-apple{
+        background-image: url("../img/appleI.cel.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    html, body{
+        font-size: 10px;
+        margin: 0;
+        height: 100%;
+        font-family: MSDOS;
+    }
+    h1 {
+        font-size: 6rem;
+        color: white;
+        text-shadow: 0.5rem 0.5rem black;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    li {
+        font-size: 1rem;
+    }
+    .bg-home{
+        background-image: url("../img/homeBgTablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .bg-apple{
+        background-image: url("../img/appleI.tab.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}

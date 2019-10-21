@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    font-size: 10px;
+    height: 100%;
+}
+.parallax-100{
+    background-image: url("../img/1-1.gif");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-grey{
+    background-color: rgba(169, 169, 169, 0.78);
+}
+.big-pad{
+    padding-top: 100rem;
+    padding-bottom: 100rem;
+}
+h1{
+    font-size: 7.5rem;
+}
+.h-90{
+    height: 90%;
+}
