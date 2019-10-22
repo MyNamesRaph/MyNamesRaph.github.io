@@ -1,0 +1,11 @@
+$('#stormBlanc').attr("title", "Pas facile la vie de Stormtrooper");
+$('#stormBlanc').attr("alt", "image d'une stormtrooper blanc");
+$('#stormBlanc').attr("src", "images/nouveauStorm.jpeg");
+$('#fontAChanger').attr("class", "fas fa-fighter-jet fa-4x");
+$('.row4 h1').css("font-size", "4rem");
+$('.orange').css("opacity", "0.8");
+$('.fondNoir').css("background-color", "#3F3F3F");
+$('.fondBlanc').css("background-color", "#AFAFAF");
+$('#stormTitle').html("Vive les Stormtroopers");
+$('#darthText').html("Père de Luke Skywalker");
+$('.hide').hide();
