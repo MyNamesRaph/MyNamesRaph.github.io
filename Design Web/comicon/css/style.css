@@ -1,0 +1,28 @@
+html, body{
+    font-size: 10px;
+    height: 100%;
+}
+body{
+    color: white;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1rem;
+}
+.greentext {
+    color: #2aaa2a;
+}
+.christmas {
+    background-image: url("../img/christmas.jpg");
+}
+.bgCom {
+    background-color: #a2141f;
+}
+#validNom, #validMdp, #validConfMdp, #validConfEmail {
+    color: white;
+}
+#costumes{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+

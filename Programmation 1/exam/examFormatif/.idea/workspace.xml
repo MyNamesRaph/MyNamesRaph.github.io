@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c30dc18-576c-4191-ac63-f48172460562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/Template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/template-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/img/kanna.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Design Web/jqueryEvents/js/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/q4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/q5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/q6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/q7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/q8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Design Web/Flash Version 2019/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Design Web/Flash Version 2019/.idea/Flash Version 2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Design Web/Flash Version 2019/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Design Web/Flash Version 2019/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Design Web/Flash Version 2019/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Design Web/Flash Version 2019/img/Kanna_Anime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/q10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/q9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/raphchallenge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/rudechallenge.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/q3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/q3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +44,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Design Web/jqueryEvents" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Design Web/Flash Version 2019" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,6 +77,9 @@
       <updated>1571660966744</updated>
       <workItem from="1571660968214" duration="5108000" />
       <workItem from="1571937688027" duration="6000000" />
+      <workItem from="1572265350688" duration="4334000" />
+      <workItem from="1572369616762" duration="42000" />
+      <workItem from="1572460237110" duration="2228000" />
     </task>
     <servers />
   </component>
