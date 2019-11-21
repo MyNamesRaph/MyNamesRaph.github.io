@@ -22,22 +22,22 @@
                 <div class="form-group">
                     <label for="inputNom">Nom</label>
                     <input type="text" class="form-control" id="inputNom" aria-describedby="nom" placeholder="Nom">
-                    <small id="nom" class="form-text text-muted"><h2 id="validNom">Insert Text Here</h2></small>
+                    <small id="nom" class="form-text text-muted"><h2 id="validNom"><br></h2></small>
                 </div>
                 <div class="form-group">
                     <label for="inputMdp">Mot de passe</label>
                     <input type="password" class="form-control" id="inputMdp" aria-describedby="Mdp" placeholder="Mot de passe">
-                    <small id="Mdp" class="form-text text-muted"><h2 id="validMdp">Insert Text Here</h2></small>
+                    <small id="Mdp" class="form-text text-muted"><h2 id="validMdp"><br></h2></small>
                 </div>
                 <div class="form-group">
                     <label for="inputConfMdp">Confirmer mot de passe</label>
                     <input type="password" class="form-control" id="inputConfMdp" aria-describedby="ConfMdp" placeholder="Mot de passe">
-                    <small id="ConfMdp" class="form-text text-muted"><h2 id="validConfMdp">Insert Text Here</h2></small>
+                    <small id="ConfMdp" class="form-text text-muted"><h2 id="validConfMdp"><br></h2></small>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail">Email</label>
                     <input type="email" class="form-control" id="inputEmail" aria-describedby="ConfEmail" placeholder="Email">
-                    <small id="ConfEmail" class="form-text text-muted"><h2 id="validConfEmail">Insert Text Here</h2></small>
+                    <small id="ConfEmail" class="form-text text-muted"><h2 id="validConfEmail"><br></h2></small>
                 </div>
 
                 <div class="form-check">
@@ -65,51 +65,54 @@
     <section id="costumes">
         <div id="Starwars" class="row">
             <div class="col-4">
-                <img class="img-fluid" src="img/rtxyoda.jpg" width="400">
+                <img id="SWimg" class="img-fluid" src="img/rtxyoda.jpg" width="400">
             </div>
             <div class="col-8">
                 <form>
-                    <select class="custom-select-lg w-100">
-                        <option selected>Selectionner le costume</option>
-                        <option value="Yoda">Yoda</option>
-                        <option value="Obiwan">Obiwan</option>
-                        <option value="Darth Vador">Darth Vador</option>
+                    <select id="SWsel" class="custom-select-lg w-100">
+                        <option value="rtxyoda.jpg" selected>Selectionner le costume</option>
+                        <option value="rtxyoda.jpg">Yoda</option>
+                        <option value="obiwan.jpeg">Obiwan</option>
+                        <option value="vador.jpg">Darth Vador</option>
                     </select>
                 </form>
+                <button type="button" class="btn btn-success validation">Valider</button>
             </div>
         </div>
 
         <div id="Marvel" class="row">
             <div class="col-4">
-                <img class="img-fluid" src="img/spiderman.webp" width="400">
+                <img id="Marvelimg" class="img-fluid" src="img/spiderman.webp" width="400">
             </div>
             <div class="col-8">
                 <form>
-                    <select class="custom-select-lg w-100">
-                        <option selected>Selectionner le costume</option>
-                        <option value="Spiderman">Spiderman</option>
-                        <option value="Thor">Thor</option>
-                        <option value="Hulk">Hulk</option>
+                    <select id="Marvelsel" class="custom-select-lg w-100">
+                        <option value="spiderman.webp" selected>Selectionner le costume</option>
+                        <option value="spiderman.webp">Spiderman</option>
+                        <option value="thor.jpg">Thor</option>
+                        <option value="hulk.jpg">Hulk</option>
                     </select>
                 </form>
+                <button type="button" class="btn btn-success validation">Valider</button>
             </div>
         </div>
 
         <div id="DC" class="row">
             <div class="col-4">
-                <img class="img-fluid" src="img/batman.png" width="400">
+                <img id="DCimg" class="img-fluid" src="img/batman.png" width="400">
             </div>
             <div class="col-8">
                 <form>
-                    <select class="custom-select-lg w-100">
-                        <option selected>Selectionner le costume</option>
-                        <option value="Batman">Batman</option>
-                        <option value="Superman">Superman</option>
-                        <option value="Flash">Flash</option>
-                        <option value="Arrow">Arrow</option>
+                    <select id="DCsel" class="custom-select-lg w-100">
+                        <option value="batman.png" selected>Selectionner le costume</option>
+                        <option value="batman.png">Batman</option>
+                        <option value="superman.jpg">Superman</option>
+                        <option value="flash.webp">Flash</option>
+                        <option value="arrow.png">Arrow</option>
 
                     </select>
                 </form>
+                <button type="button" class="btn btn-success validation">Valider</button>
             </div>
         </div>
     </section>

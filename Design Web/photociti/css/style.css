@@ -1,0 +1,20 @@
+html, body {
+    font-size: 10px;
+    height: 100%;
+}
+.red {
+    background-image: url("../img/bg/rouge.jpg");
+}
+.h-60 {
+    height: 60%;
+}
+.img-fluid {
+    cursor: pointer;
+}
+.centered-row {
+    display: flex;
+    align-items: center;
+}
+.outlineBg {
+    background-image: url("../img/bg/wood.jpg");
+}
