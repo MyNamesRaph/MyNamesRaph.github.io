@@ -2,19 +2,68 @@ html, body {
     font-size: 10px;
     height: 100%;
 }
-.red {
-    background-image: url("../img/bg/rouge.jpg");
+h1 {
+    color: white;
+}
+.pt-6 {
+    padding-top: 4rem;
+}
+.bodyBg {
+    background-image: url("../img/bg/sky.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .h-60 {
-    height: 60%;
+    height: 65%;
 }
-.img-fluid {
-    cursor: pointer;
+.h-10 {
+    height: 16%;
 }
 .centered-row {
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .outlineBg {
     background-image: url("../img/bg/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.letterRowH {
+    max-height: 40rem;
+}
+.bgSelRow {
+    overflow: hidden;
+    padding: 2rem;
+}
+.bgRed {
+    background-image: url("../img/bg/rouge.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.bgBlue {
+    background-image: url("../img/bg/bleu.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.bgWhite {
+    background-image: url("../img/bg/blanc.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.bgDarkBlue {
+    background-image: url("../img/bg/bleuFonce.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.bgBlack {
+    background-image: url("../img/bg/noir.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.bgPink {
+    background-image: url("../img/bg/rose.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.bgGray {
+    background-image: url("../img/bg/gris.jpg");
+    -webkit-print-color-adjust: exact;
+}
+.click {
+    cursor: pointer;
 }

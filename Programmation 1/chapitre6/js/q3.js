@@ -1,25 +1,32 @@
-let cyl1 = new cyl(10,2);
-let cyl2 = new cyl(15,6);
-let cyl3 = new cyl(25,10);
-let cyl4 = new cyl(104,56);
-let cyl5 = new cyl(78,3);
+let cyl1 = new Cyl(10,2);
+let cyl2 = new Cyl(15,6);
+let cyl3 = new Cyl(25,10);
+let cyl4 = new Cyl(104,56);
+let cyl5 = new Cyl(78,3);
 
 let arr = [cyl1, cyl2, cyl3, cyl4, cyl5];
-let box1 = new box(arr);
+let box1 = new Box(arr);
 
-function cyl(h,r) {
-    this.h = h;
-    this.r = r;
-    this.getVolume = function() {
+
+
+class Cyl{
+    constructor(h,r)  {
+        this.h = h;
+        this.r = r;
+    }
+
+    getVolume() {
         return Math.round((Math.PI*this.r**2)*this.h);
     };
 }
 
-function box(arr) {
-    this.arr = arr;
-    this.getVolumeBox = function () {
+class Box{
+    constructor(arr) {
+        this.arr = arr;
+    }
+    getVolumeBox() {
         let total = 0;
-        for (i=0;i<arr.length; i++) {
+        for (let i=0;i<arr.length; i++) {
             total += arr[i].getVolume();
         }
         return total;
