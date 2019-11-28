@@ -15,7 +15,7 @@ function changeCard() {
         level = "basic";
     }
     cardUrl = 'url("img/' + type + '-' + level + '.png")';
-    $("#card").css("background-image", cardUrl);
+    //$("#card").css("background-image", cardUrl);
 
     if (type === "dark" || type === "dragon") {
         $("#card").css("color", "white");

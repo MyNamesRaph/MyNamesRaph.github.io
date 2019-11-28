@@ -15,7 +15,7 @@ class Exam {
 class Student{
     constructor(name,lastname,q1,q2,q3,q4,q5)  {
         this.name = name;
-        this.lastname = name;
+        this.lastname = lastname;
         this.exam = new Exam(q1,q2,q3,q4,q5);
     }
 

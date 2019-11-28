@@ -2,33 +2,25 @@ let parentCount = 0;
 
 
 class Matryoshka {
-    constructor(parent,child) {
-        this.parent = parent;
-        this.child = child;
+    constructor(nbParents,nbChildren) {
+        this.nbParents = nbParents;
+        this.nbChildren = nbChildren;
     }
     GetParents() {
-        if (this.parent === false){
-            let totalParents = parentCount;
-            parentCount = 0;
-            return totalParents;
-
-        }
-        else {
-            parentCount +=1;
-            this.parent.GetParents();
-        }
-
+        return this.nbParents;
     }
 
+    GetChildren() {
+        returm this.nbChildren;
+    }
 }
 
 
 
-verySmall = new Matryoshka(small,false);
-small = new Matryoshka(normal, verySmall);
-normal = new Matryoshka(big, small);
-big = new Matryoshka(veryBig, normal);
-veryBig = new Matryoshka(false,big);
-console.log(verySmall,small,normal,big,veryBig);
+verySmall = new Matryoshka(4,0);
+small = new Matryoshka(3, 1);
+normal = new Matryoshka(2, 2);
+big = new Matryoshka(1, 3);
+veryBig = new Matryoshka(0,4);
 
 console.log(verySmall.GetParents());

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c7ec66a-599b-4229-88e4-4859351036aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../exerciseFacebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exerciseFacebook/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation 1/chapitre6/js/q4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation 1/chapitre6/js/q4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation 1/chapitre6/js/q6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation 1/chapitre6/js/q6.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programmation 1/chapitre3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetRelache" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,6 +69,7 @@
       <workItem from="1568742867643" duration="18000" />
       <workItem from="1569167114612" duration="827000" />
       <workItem from="1569257397220" duration="49000" />
+      <workItem from="1574690048303" duration="199000" />
     </task>
     <servers />
   </component>

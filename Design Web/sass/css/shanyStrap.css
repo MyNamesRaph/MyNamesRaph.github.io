@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  font-size: 10rem;
+}
+
+.container {
+  width: 100%;
+  float: left;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+}
+
+.col-3 {
+  width: 33.3333333333%;
+  float: left;
+}
+
+.col-5 {
+  width: 20%;
+  float: left;
+}
+
+.col-7 {
+  width: 14.2857142857%;
+  float: left;
+}
+
+.col-8 {
+  width: 12.5%;
+  float: left;
+}
+
+.col-9 {
+  width: 11.1111111111%;
+  float: left;
+}
+
+.col-10 {
+  width: 10%;
+  float: left;
+}
+
+.col-11 {
+  width: 9.0909090909%;
+  float: left;
+}
+
+.img-responsive {
+  width: 100%;
+  display: flex;
+}
+
+.bg1 {
+  color: #f018c8;
+}
+
+.bg2 {
+  color: #ffa1ee;
+}
+
+.bg3 {
+  color: #e1a1ff;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/*# sourceMappingURL=shanyStrap.css.map */
