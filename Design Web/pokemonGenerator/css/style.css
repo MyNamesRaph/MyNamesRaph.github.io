@@ -5,35 +5,29 @@ html, body{
 body {
     font-size: 1.5rem;
 }
-#card{
-    position: static;
+#card {
+    mso-gutter-margin: 0;
+    width: 50%;
     height: 100%;
-    left: 50%;
 }
-#cardbg{
-    position: absolute;
-    top: 0;
-    left: 0;
+#cardBody {
+    mso-gutter-margin: 0;
     height: 100%;
+    width: 100%;
     z-index: 0;
-}
-#nameText{
-    position: absolute;
-    left: 16rem;
-    top: 2.5rem;
-    font-size: 2.5rem;
-    max-width: 21rem;
     overflow: hidden;
-    max-height: 4rem;
 }
-#imageBox {
-    position: fixed;
-    top: 4%;
+#cardImage {
+    position: absolute;
+    top:0;
+    margin: 2rem;
+    align-items: center;
+    height: 50%;
+    width: 100%;
     z-index: -1;
-    overflow: hidden;
 }
-.overlap {
-    position: absolute;
-    top: 0;
-    left: 50%;
+.fluidImg{
+    float: left;
+    width: 100%;
 }
+

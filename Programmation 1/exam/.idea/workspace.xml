@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d667fb7a-4cd6-43e0-b321-36270a0b055a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Design Web/projetBootstrapSite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Design Web/projetBootstrapSite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapitre6/js/q4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chapitre6/js/q4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapitre6/js/q6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chapitre6/js/q6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Design Web/RandomLibraries/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Design Web/RandomLibraries/css/styl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Design Web/RandomLibraries/img/angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Design Web/RandomLibraries/img/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Design Web/RandomLibraries/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Design Web/RandomLibraries/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examFormatif/js/2/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q1.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q10.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q3.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q4.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q5.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q6.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q7.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q8.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/q9.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/q9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/raphchallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/raphchallenge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examFormatif/js/rudechallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/examFormatif/js/1/rudechallenge.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +34,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -24,7 +48,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Design Web/photociti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raphr\Documents\GitHub\MyNamesRaph.github.io\Programmation 1\exam\examFormatif\js\1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574690806777</updated>
       <workItem from="1574690807851" duration="38000" />
+      <workItem from="1574965021602" duration="2330000" />
     </task>
     <servers />
   </component>
@@ -60,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
