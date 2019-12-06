@@ -4,7 +4,6 @@
     <list default="true" id="ff0123d9-eff2-49f0-bb1f-bad8242a71fe" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projetBootstrapSite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projetBootstrapSite/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetFinal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,6 +62,7 @@
       <workItem from="1568295071319" duration="613000" />
       <workItem from="1568742573476" duration="291000" />
       <workItem from="1568742886226" duration="216000" />
+      <workItem from="1575397452314" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1568295558508</created>

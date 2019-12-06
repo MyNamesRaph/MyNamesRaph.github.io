@@ -1,0 +1,30 @@
+html, body{
+    font-size: 10px;
+    height: 100%;
+}
+.site-title {
+    font-size: 8rem;
+    color: #b80000;
+    text-align: center;
+}
+.banner {
+    background-image: url("../img/banner.png");
+    background-size: 50%;
+}
+.greenTxt {
+    color: green;
+}
+.nightBg {
+    background-image: url("../img/nightsky.png");
+    background-size: cover;
+    position: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+.navbar {
+    position: sticky;
+}
+.nav-text {
+    font-size: 5rem;
+}
