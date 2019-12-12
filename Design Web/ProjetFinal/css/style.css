@@ -7,12 +7,28 @@ html, body{
     color: #b80000;
     text-align: center;
 }
+.site-title.lettre {
+    color: white;
+}
 .banner {
     background-image: url("../img/banner.png");
     background-size: 50%;
 }
 .greenTxt {
     color: green;
+}
+.greenBg {
+    background-color: darkgreen;
+}
+.redBg {
+    background-color: #bb2528;
+}
+.yellowBg {
+    background-color: #f8b229
+}
+.videoCol {
+    position: relative;
+    padding: 0;
 }
 .nightBg {
     background-image: url("../img/nightsky.png");
@@ -22,9 +38,49 @@ html, body{
     background-attachment: fixed;
     background-repeat: repeat-x;
 }
-.navbar {
-    position: sticky;
-}
 .nav-text {
     font-size: 5rem;
 }
+.nav-link {
+    margin-right: 2rem;
+}
+.navMargin{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.navMargin2{
+    margin-top: 15rem;
+}
+.btnXl {
+    transform: scale(2);
+}
+.countDown {
+    font-size: 4rem;
+    color: #b80000;
+    text-align: center;
+}
+.countDown.lettre {
+    padding-top: 2rem;
+    color: white;
+}
+.opened{
+    opacity: 50%;
+}
+.footer{
+    background-color: darkgreen;
+}
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+.video-fluid {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.bigMt {
+    margin-top: 20rem;
+}
+

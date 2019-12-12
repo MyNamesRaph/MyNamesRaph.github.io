@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winter Bus</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+    <script src="../js/phaser.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+
+    var config = {
+        type: Phaser.AUTO,
+        width: 1024,
+        height: 1024,
+        physics: {
+            default: 'arcade',
+            arcade: {
+                gravity: { y: 0 },
+                debug: false
+            }
+        },
+        scene: {
+            preload: preload,
+            create: create,
+            update: update
+        }
+    };
+    var player;
+    var cursors;
+    var frame;
+    var game = new Phaser.Game(config);
+
+    function preload ()
+    {
+        this.load.spritesheet('road', 'assets/road2.png', { frameWidth: 1024, frameHeight: 1024 });
+
+    }
+
+    function create ()
+    {
+        player = this.physics.add.sprite(512, 512, 'road');
+
+        this.anims.create({
+            key: 'roadLoop',
+            frames: this.anims.generateFrameNumbers('road', { start: 0, end: 3 }),
+            frameRate: 4,
+            repeat: -1
+        });
+
+        cursors = this.input.keyboard.createCursorKeys();
+
+
+    }
+
+    function update ()
+    {
+
+        if (cursors.up.isDown)
+        {
+            player.anims.play('roadLoop', true);
+        }
+        else {
+            frame = player.anims.currentFrame;
+            player.anims.play()
+        }
+    }
+
+</script>
+</body>
+</html>
