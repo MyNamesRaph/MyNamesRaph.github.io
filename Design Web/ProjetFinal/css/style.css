@@ -7,18 +7,16 @@ html, body{
     color: #b80000;
     text-align: center;
 }
-.site-title.lettre {
-    color: white;
+.countDown {
+    font-size: 4rem;
+    color: #b80000;
+    text-align: center;
 }
-.site-title#nowel {
-    color: green;
-}
+
+/*Backgrounds*/
 .banner {
     background-image: url("../img/banner.png");
     background-size: 50%;
-}
-.greenTxt {
-    color: green;
 }
 .greenBg {
     background-color: darkgreen;
@@ -37,10 +35,6 @@ html, body{
     width: 100%;
     z-index: -999;
 }
-.videoCol {
-    position: relative;
-    padding: 0;
-}
 .nightBg {
     background-image: url("../img/nightsky.png");
     background-size: cover;
@@ -52,11 +46,14 @@ html, body{
 .patternBg {
     background-image: url("../img/background.jpg");
 }
-.nav-text {
-    font-size: 5rem;
+.footer{
+    background-color: darkgreen;
 }
-.nav-link {
-    margin-right: 2rem;
+
+/*Format*/
+.videoCol {
+    position: relative;
+    padding: 0;
 }
 .navMargin{
     margin-top: 10rem;
@@ -65,27 +62,18 @@ html, body{
 .navMargin2{
     margin-top: 15rem;
 }
+.bigMY {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.elevatorM {
+    margin-top: 1000rem;
+}
 .btnXl {
     transform: scale(2);
 }
-.countDown {
-    font-size: 4rem;
-    color: #b80000;
-    text-align: center;
-}
-.countDown.lettre {
-    padding-top: 2rem;
-    color: white;
-}
 .opened{
     opacity: 50%;
-}
-.footer{
-    background-color: darkgreen;
-}
-.alignCenter {
-    display: flex;
-    align-items: center;
 }
 .video-fluid {
     position: absolute;
@@ -94,14 +82,59 @@ html, body{
     height: 100%;
     margin: 0;
 }
-.bigMY {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
 label {
     font-size: 2rem;
 }
-.elevatorM {
-    margin-top: 1000rem;
+
+/*Navbar*/
+.nav-text {
+    font-size: 5rem;
+}
+.nav-link {
+    margin-right: 2rem;
 }
 
+
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    .site-title {
+        font-size: 4rem;
+        color: #b80000;
+        text-align: center;
+    }
+    .countDown {
+        font-size: 2rem;
+        color: #b80000;
+        text-align: center;
+    }
+
+    .nav-text {
+        font-size: 3rem;
+    }
+    .videoBg {
+        background-color: black;
+        height: 100%;
+        z-index: -999;
+    }
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .videoBg {
+        background-color: black;
+        height: 100%;
+        z-index: -999;
+    }
+}
+
+
+.site-title.lettre {
+    color: white;
+}
+.countDown.lettre {
+    padding-top: 2rem;
+    color: white;
+}
+.greenTxt {
+    color: green;
+}
