@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Calendrier de l'avant | Lettre au père Noël</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,11 +12,11 @@
     <script src="js/bootstrap.js" defer></script>
 </head>
 <body class="redBg">
-<header> <!--A FAIRE! UTILISER DES FONT AWESOMES POUR UN MENU COMPACT!-->
+<header>
     <nav class="navbar navbar-expand-lg navbar-light banner fixed-top">
         <a class="navbar-brand" href="#"><i class="fas fa-gifts fa-5x greenTxt pr-5"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-angle-double-down fa-2x"></i>
         </button>
         <div class="collapse navbar-collapse navbarNavDropdown">
             <ul class="navbar-nav">
@@ -44,17 +45,34 @@
 <section class="container-fluid greenBg p-0 h-75">
 
         <div class="container videoCol h-100">
-            <h1 class="countDown lettre">Le Père Noël lira votre lettre !</h1>
             <iframe class="video-fluid" src="https://www.youtube.com/embed/AEEbUtAI5As?&controls=0&autoplay=1" allow="autoplay; encrypted-media;"></iframe>
         </div>
 
 
 </section>
 
-<section class="container-fluid bigMt h-50">
+<section class="container-fluid bigMY h-50">
     <div class="row h-100">
         <div class="offset-1 col-10 yellowBg">
-
+            <form>
+                <div class="form-group row">
+                    <div class="col">
+                        <label for="lastname" class=" col-form-label"><h1>Nom</h1></label>
+                        <input id="lastname" class="form-control form-control-lg mb-2 mx-2" type="text" placeholder="Nom">
+                        <label for="name" class=" col-form-label"><h1>Prénom</h1></label>
+                        <input id="name" class="form-control form-control-lg mb-2 mx-2" type="text" placeholder="Prénom">
+                        <label for="name" class="col-form-label"><h1>Code Postal</h1></label>
+                        <input class="form-control form-control-lg mb-2 mx-2" type="text" placeholder="H0H 0H0" readonly>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><h1>Message au Père Noël</h1></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="24"></textarea>
+                        </div>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1bzmaVUkDGcwtXvRdhIVtG7n1UZcBEecx&hl=fr" width="100%"></iframe>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </section>

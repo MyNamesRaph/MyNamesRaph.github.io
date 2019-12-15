@@ -26,6 +26,14 @@ html, body{
 .yellowBg {
     background-color: #f8b229
 }
+.blackBg {
+    background-color: black;
+}
+.videoBg {
+    background-color: black;
+    width: 100%;
+    z-index: -999;
+}
 .videoCol {
     position: relative;
     padding: 0;
@@ -80,7 +88,11 @@ html, body{
     height: 100%;
     margin: 0;
 }
-.bigMt {
-    margin-top: 20rem;
+.bigMY {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+label > h1 {
+    font-size: 2rem;
 }
 
