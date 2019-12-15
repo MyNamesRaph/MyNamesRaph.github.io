@@ -5,6 +5,7 @@ let month = new Date().getMonth();
 
 
 $('document').ready(function() {
+    $('.locked').hide();
     setupCalender();
     setInterval(isOpenable, 1);
 });
@@ -21,6 +22,7 @@ $('#open').click(function() {
 
     $('#'+ID+"> img").attr("alt", "opened");
     $('#'+ID+"> img").attr("class", "d-block mx-auto img-fluid opened");
+    open(ID);
 });
 
 
@@ -72,5 +74,23 @@ function isOpenable() {
     }
     if (alt === "opened") {
         $('#open').prop("disabled", true);
+    }
+}
+
+function open(ID) {
+    if (ID === 1) {
+        $('#letterLocked').show();
+    }
+    else if (ID === 10) {
+        $('#yuleLocked').show();
+    }
+    else if (ID === 20) {
+        $('#findLocked').show();
+    }
+    else if (ID === 25) {
+        $('#elevatorLocked').show();
+    }
+    else {
+        alert("Il n'y a pas de cadeau aujourd'hui!")
     }
 }

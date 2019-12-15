@@ -10,6 +10,9 @@ html, body{
 .site-title.lettre {
     color: white;
 }
+.site-title#nowel {
+    color: green;
+}
 .banner {
     background-image: url("../img/banner.png");
     background-size: 50%;
