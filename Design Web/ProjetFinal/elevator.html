@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca-fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendrier de l'avant | Lettre au père Noël</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5e96605f9f.js" defer></script>
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/elevator.min.js" defer></script>
+    <script defer>
+        window.onload = function() {
+            var elevator = new Elevator({
+                element: document.querySelector('.elevator-button'),
+                mainAudio: 'music/elevator.mp3',
+                endAudio: 'music/ding.mp3'
+            });
+        }
+    </script>
+
+</head>
+<body class="patternBg">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light banner fixed-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-gifts fa-5x greenTxt pr-5"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-angle-double-down fa-2x"></i>
+        </button>
+        <div class="collapse navbar-collapse navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="index.html"><i class="far fa-calendar-alt"></i><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link nav-text" href="letter.html"><i class="far fa-arrow-alt-circle-up"></i><span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container navMargin2 text-center">
+    <a href="#elevator" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Descendez au bas de la page!</a>
+</div>
+
+<div id="elevator" class="elevatorM text-center">
+    <div class="elevator-button  btn btn-danger btn-lg">Retourner en haut</div>
+</div>
+</body>
+</html>
